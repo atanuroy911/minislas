@@ -1,0 +1,18 @@
+<!-- 江西理工大学图片 -->
+<view>
+  <image class="image" src="/images/uni.jpg" mode="widthFix"/>
+</view>
+<!-- 文字 -->
+<view >
+  <text class="textslas">{{textVal_str}}</text>
+</view>
+<!-- 老师图片 -->
+<view class="tea">
+  <image src="/images/tea2.png"/>
+</view>
+<button bindtap="setEnter">Enter</button>
+
+<!-- 江西理工大学图片 -->
+<view>
+  <image class="image" src="/images/rari.png" mode="widthFix"/>
+</view>

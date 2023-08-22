@@ -1,0 +1,40 @@
+<!-- 江西理工大学图片 -->
+<view>
+  <image class="image" src="/images/uni.jpg" mode="widthFix"/>
+</view>
+<!-- 文字 -->
+<view>
+  <text class="textslas">{{textVal_str}}</text>
+</view>
+<!-- 江西理工大学图片 -->
+<view class="tea">
+  <image src="/images/tea2.png" class="in-image"/>
+</view>
+
+<!-- student -->
+<view class=".head">
+  Student ID：<input class="input" name="studentID" bindinput="idInput"  placeholder="请输入学生ID"/>
+</view>
+
+<!-- ip -->
+<view class=".head">
+  IP:<text>{{getIP}}</text>
+</view>
+
+<!-- code-->
+<view class=".head">
+  <text>{{code_str}}</text>
+  <text>{{getcode}}</text>
+</view>
+
+<view class=".head">
+  <button bindtap="setIP">scan1</button>
+  <button bindtap="setScan">scan2</button>
+  <button bindtap="setAttend">attend</button>
+</view>
+
+
+<!-- 江西理工大学图片 -->
+<view>
+  <image class="image" src="/images/rari.png" mode="widthFix"/>
+</view>
